@@ -16,8 +16,8 @@
     flex-direction: row;
     padding: 2%;
     border: 2%;
-    background-color: #F1E4B8;
-    align-items: baseline;
+    background-color:#F1E4B8;
+    align-items: center;
 }
 
 
@@ -53,7 +53,6 @@
     width: 100%;
     border-collapse: collapse;
 
-
 }
 
 .tablecenter {
@@ -82,8 +81,6 @@ th:hover {
     background-color: #eae1f5;
 }
 
-
-
 .navbar {
     padding: 1%;
     margin: 1%;
@@ -98,11 +95,22 @@ p {
     padding: 5%;
 }
 
+.p1 {
+    margin: 3%;
+}
+
 h4 {
     text-align: center;
     background-color: #eae1f5;
     padding: 1%;
 
+}
+
+h5 {
+    font-size: medium;
+    margin-bottom: 5%;
+    background-color: #eae1f5;
+    padding: 1%;
 }
 
 footer {
@@ -112,11 +120,61 @@ footer {
     font-size: small;
 }
 
-input,
-button {
+.button {
     font-size: small;
 }
 
 form {
     font-size: medium;
+    
+}
+
+textarea {
+    margin-left: 10%;
+    margin-top: 5%;
+    padding: 5%;
+    background-color: #F1E4B8;
+    border: none;
+    border-bottom: solid black;
+    text-align: center;
+    width: 74%;
+}
+
+input {
+    margin-left: 2%;
+    padding: 0%;
+    background-color: #E1E1E1;
+    border: none;
+    border-bottom: solid black;
+    font-size: smaller;
+}
+
+.input1 {
+    margin-left: 10%;
+    padding: 2%;
+    background-color: #F1E4B8;
+    border: none;
+    border-bottom: solid black;
+}
+
+.input2 {
+   background-color: #F1E4B8;
+   border: none;
+    border-bottom: solid black;
+    padding: 2%;
+}
+
+.button2 {
+    background-color: #F1E4B8;
+    width: 60%;
+    margin-top: 2%;
+    margin-left: 17%;
+    padding: 1%;
+
+}
+
+section {
+    text-align: center;
+    
+    margin-bottom: 5%;
 }
